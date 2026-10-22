@@ -1,0 +1,11 @@
+{
+  "name": "dsh-theme-long-march-terminal",
+  "version": "1.0.0",
+  "description": "Long March Terminal Theme",
+  "type": "module",
+  "main": "client.js",
+  "dsh": {
+    "title": "长征终端",
+    "author": "Commander"
+  }
+}
