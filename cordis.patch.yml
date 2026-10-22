@@ -1,4 +1,3 @@
-name: dsh-theme-long-march-terminal
-display_name: 长征终端主题
-description: 极简测试
-entry: ./client.js
+- insert:
+    - id: dsh-theme-long-march-terminal
+      name: dsh-theme-long-march-terminal
