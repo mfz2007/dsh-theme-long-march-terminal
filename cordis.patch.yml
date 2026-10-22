@@ -1,0 +1,7 @@
+name: dsh-theme-long-march-terminal
+display_name: 长征终端主题
+description: 红黑白赛博极简终端风
+entry: ./client.js
+styles:
+  - ./theme.css
+priority: 100
