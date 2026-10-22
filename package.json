@@ -1,13 +1,13 @@
 {
   "name": "dsh-theme-long-march-terminal",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
-  "exports": {
-    ".": "./index.js",
-    "./client": "./client.js"
-  },
+  "main": "index.js",
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" }
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
   }
 }
