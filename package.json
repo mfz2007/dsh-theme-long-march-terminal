@@ -8,13 +8,6 @@
     "./client": "./client.js"
   },
   "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "inject": ["styles"],
-      "platform": "web",
-      "immediately": true
-    }
+    "bundle": { "patch": "./cordis.patch.yml" }
   }
 }
